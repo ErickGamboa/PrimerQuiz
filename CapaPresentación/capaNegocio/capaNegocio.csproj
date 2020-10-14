@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="nComentario.cs" />
+    <Compile Include="NGeografía.cs" />
     <Compile Include="nPersona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

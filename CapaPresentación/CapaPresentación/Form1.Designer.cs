@@ -69,17 +69,19 @@
             // 
             this.cboProvincias.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboProvincias.FormattingEnabled = true;
-            this.cboProvincias.Location = new System.Drawing.Point(16, 270);
+            this.cboProvincias.Location = new System.Drawing.Point(42, 270);
             this.cboProvincias.Name = "cboProvincias";
             this.cboProvincias.Size = new System.Drawing.Size(240, 33);
             this.cboProvincias.TabIndex = 3;
             this.cboProvincias.Text = "Provincias";
+            this.cboProvincias.SelectionChangeCommitted += new System.EventHandler(this.cboProvincias_SelectionChangeCommitted);
+            this.cboProvincias.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cboProvincias_MouseClick);
             // 
             // cboCanton
             // 
             this.cboCanton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCanton.FormattingEnabled = true;
-            this.cboCanton.Location = new System.Drawing.Point(292, 270);
+            this.cboCanton.Location = new System.Drawing.Point(344, 270);
             this.cboCanton.Name = "cboCanton";
             this.cboCanton.Size = new System.Drawing.Size(240, 33);
             this.cboCanton.TabIndex = 4;
@@ -93,6 +95,7 @@
             this.btnCanton.TabIndex = 5;
             this.btnCanton.Text = "Cantones";
             this.btnCanton.UseVisualStyleBackColor = true;
+            this.btnCanton.Click += new System.EventHandler(this.btnCanton_Click);
             // 
             // Form1
             // 
